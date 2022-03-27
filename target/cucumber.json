@@ -1,0 +1,554 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1207878200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is login on techfiospage",
+            "match": {
+              "location": "TechfiosStepDefiniton.user_is_login_on_techfiospage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2650255300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TechfiosStepDefiniton.beforerun()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Login with invalid username",
+        "description": "",
+        "id": "techfios-login-fuctionality-validation;login-with-invalid-username;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 723742500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TechfiosStepDefiniton.afterrun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4320000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters username value as\"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 30
+                }
+              ],
+              "location": "TechfiosStepDefiniton.user_enters_username_value_as1(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97424100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters password value as \"abc124\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc124",
+                  "offset": 31
+                }
+              ],
+              "location": "TechfiosStepDefiniton.user_enters_password_value_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1321904900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on signin button",
+            "match": {
+              "location": "TechfiosStepDefiniton.user_clicks_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User should notland on dashboardpage",
+            "match": {
+              "location": "TechfiosStepDefiniton.user_should_notland_on_dashboardpage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 1,
+            "name": "@Loginfeature"
+          },
+          {
+            "line": 13,
+            "name": "@OtherScanario"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1018879200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is login on techfiospage",
+            "match": {
+              "location": "TechfiosStepDefiniton.user_is_login_on_techfiospage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1484717400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TechfiosStepDefiniton.beforerun()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Login with invalid username",
+        "description": "",
+        "id": "techfios-login-fuctionality-validation;login-with-invalid-username;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 723456400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TechfiosStepDefiniton.afterrun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 81200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters username value as\"demo1@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo1@techfios.com",
+                  "offset": 30
+                }
+              ],
+              "location": "TechfiosStepDefiniton.user_enters_username_value_as1(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88516100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters password value as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 31
+                }
+              ],
+              "location": "TechfiosStepDefiniton.user_enters_password_value_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1180921400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on signin button",
+            "match": {
+              "location": "TechfiosStepDefiniton.user_clicks_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User should notland on dashboardpage",
+            "match": {
+              "location": "TechfiosStepDefiniton.user_should_notland_on_dashboardpage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 1,
+            "name": "@Loginfeature"
+          },
+          {
+            "line": 13,
+            "name": "@OtherScanario"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1101491500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is login on techfiospage",
+            "match": {
+              "location": "TechfiosStepDefiniton.user_is_login_on_techfiospage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1478137800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TechfiosStepDefiniton.beforerun()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Login with invalid username",
+        "description": "",
+        "id": "techfios-login-fuctionality-validation;login-with-invalid-username;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 695545400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TechfiosStepDefiniton.afterrun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 86400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters username value as\"demo1@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo1@techfios.com",
+                  "offset": 30
+                }
+              ],
+              "location": "TechfiosStepDefiniton.user_enters_username_value_as1(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80653700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters password value as \"abc124\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc124",
+                  "offset": 31
+                }
+              ],
+              "location": "TechfiosStepDefiniton.user_enters_password_value_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1111400300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on signin button",
+            "match": {
+              "location": "TechfiosStepDefiniton.user_clicks_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User should notland on dashboardpage",
+            "match": {
+              "location": "TechfiosStepDefiniton.user_should_notland_on_dashboardpage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 1,
+            "name": "@Loginfeature"
+          },
+          {
+            "line": 13,
+            "name": "@OtherScanario"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1158118800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is login on techfiospage",
+            "match": {
+              "location": "TechfiosStepDefiniton.user_is_login_on_techfiospage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1456644000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TechfiosStepDefiniton.beforerun()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Login with invalid username",
+        "description": "",
+        "id": "techfios-login-fuctionality-validation;login-with-invalid-username;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 724094400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TechfiosStepDefiniton.afterrun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 152400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters username value as\"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 30
+                }
+              ],
+              "location": "TechfiosStepDefiniton.user_enters_username_value_as1(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87406700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters password value as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 31
+                }
+              ],
+              "location": "TechfiosStepDefiniton.user_enters_password_value_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1315306300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on signin button",
+            "match": {
+              "location": "TechfiosStepDefiniton.user_clicks_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User should notland on dashboardpage",
+            "match": {
+              "location": "TechfiosStepDefiniton.user_should_notland_on_dashboardpage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 1,
+            "name": "@Loginfeature"
+          },
+          {
+            "line": 13,
+            "name": "@OtherScanario"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios login fuctionality validation",
+    "description": "",
+    "id": "techfios-login-fuctionality-validation",
+    "keyword": "Feature",
+    "uri": "features/techfioslogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Loginfeature"
+      },
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
